@@ -1,3 +1,4 @@
+import CallbackPage from "@/pages/callback-page.vue";
 import HomePage from "@/pages/home-page.vue";
 import Vue from "vue";
 import Router from "vue-router";
@@ -38,6 +39,11 @@ const router = new Router({
       path: "/admin",
       name: "admin",
       component: AdminPage,
+    },
+    {
+      path: "/callback",
+      name: "callback",
+      component: CallbackPage,
     },
     {
       path: "*",
